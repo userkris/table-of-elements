@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/dwhyte45/public_html/_git-test/
+    - /bin/cp -R images $DEPLOYPATH
